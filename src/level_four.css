@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 0.5fr 0.5fr 5fr 0.5fr;
+}
+
+#navbar {
+  grid-column-start: span 5;
+}
+
+#sidebar {
+  writing-mode: vertical-rl;
+  grid-row-start: span 2;
+}
+
+#title {
+  grid-column-start: span 4;
+}
+
+#content {
+  grid-column-start: span 4;
+}
+
+#footer {
+  grid-column-start: span 5;
+}
